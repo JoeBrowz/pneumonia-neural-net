@@ -34,13 +34,7 @@ We were able to achieve 99% accuracy, 99% recall, and 98% precision on our valid
 ```
 
 
-
-
-
-
-
-
-
-
+## Sources
+Dataset: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 <sup>1</sup> Mayoclinic https://www.mayoclinic.org/diseases-conditions/pneumonia/symptoms-causes/syc-20354204
