@@ -8,7 +8,7 @@
 Pneumonia is a viral or bacterial infection affecting the respiratory system, that begins by inflaming the air sacs in one or both of the lungs <sup>1</sup>. While symptoms of pneumonia can be mild, they can become severe if left undiagnosed and can result in death.  With a health care system under unprecented strain, any tool that can delegate a Doctor's responsibilites adds a great aount of value. Detecting pneumonia from an x-ray is difficult even for the human eye, so training a deep learning convulutional network to recognize pneumonia in an x-ray image is an effecient and effective way to ease the burden of Radiologists and help prevent cases from going undetected.
 
 ## Data
-![pneumonia_matrix][images/image_matrix.png] <!-- .element height="50%" width="50%" -->
+![pneumonia_matrix](images/image_matrix.png) <!-- .element height="50%" width="50%" -->
 
 This dataset was sourced from Kaggle. It is comprised of over 5.5 thousand jpeg images of chest x-rays. Pneumonia x-images included both bacterial and viral infected cases. Pneumonia cases appear to be cloudier than normal cases, though differences are very subtle.
 
