@@ -8,7 +8,7 @@
 Pneumonia is a viral or bacterial infection affecting the respiratory system, that begins by inflaming the air sacs in one or both of the lungs <sup>1</sup>. While symptoms of pneumonia can be mild, they can become severe if left undiagnosed and can result in death.  With a health care system under unprecented strain, any tool that can delegate a Doctor's responsibilites adds a great aount of value. Detecting pneumonia from an x-ray is difficult even for the human eye, so training a deep learning convulutional network to recognize pneumonia in an x-ray image is an effecient and effective way to ease the burden of Radiologists and help prevent cases from going undetected.
 
 ## Data
-<img src="images/image_matrix.png" width="75%" height="75%">
+<img src="images/image_matrix.png" width="75%">
 
 This dataset was sourced from Kaggle. It is comprised of over 5.5 thousand jpeg images of chest x-rays. Pneumonia x-images included both bacterial and viral infected cases. Pneumonia cases appear to be cloudier than normal cases, though differences are very subtle.
 
@@ -19,7 +19,7 @@ Images were organized into train, validation, and test folders, inside of which 
 
 The prediction model was built using the Keras package from Tensorflow. The model was built iteratively, through a process of metric optimization. Accuracy, precision, and recall were used to evaluate performance and Adam was used as the loss function. Our final model consists of 4 2-dimensional, 3 by 3 filter convultional layers, using a relu activation function, and a He initializer, each followed by a 2 by 2 max-pooling layer. The feature tensor is then flattenned,  run through a dropout layer, then a dense layer, again with a relu activation and He initializer function.
 
-<img src="images/epochs.png" width="50%" height="50%">
+<img src="images/epochs.png" width="50%">
 
 ## Outcome
 
