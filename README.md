@@ -30,10 +30,10 @@ We were able to achieve 99% accuracy, 99% recall, and 98% precision on our valid
 ```
 ├── README.md                      <- the top-level README for reviewers of this project
 ├── EDA_notebook.ipynb             <- data cleaning, EDA, feature engineering/selection
-├── modeling_notebook.ipynb        <- notebook containing all elements of model
+├── Final_Notebook.ipynb           <- notebook containing all elements of model
 ├── data                           <- dataset files
 ├── summary_presentation.pdf       <- a pdf of the project presentation
-└── images                         <- both sourced externally and generated from code
+└── images                         <- generated from code
 
 ```
 
