@@ -25,7 +25,7 @@ The prediction model was built using the Keras package from Tensorflow. The mode
 
 We were able to achieve 99% accuracy, 99% recall, and 98% precision on our validation set. And when tested on unseen data the model achieved 85% accuracy, 98% recall, and 82% precision. Notably, with very high recall, there are not many poisitve cases left undetected by the model. The cases would then be verified by a doctor to check for a false positive. As a next step, PCA and more sophisticated image augmentation should be implemented to improve accuracy on the unseen data.
 
-<img src="images/fp.png" width="50%" height="50%"> <img src="images/fn.png" width="50%" height="50%">
+<img width="50%" src="images/fp.png"> <img width="50%" src="images/fn.png">
 
 ```
 ├── README.md                      <- the top-level README for reviewers of this project
