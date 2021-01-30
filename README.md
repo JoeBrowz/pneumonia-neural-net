@@ -12,7 +12,7 @@ Pneumonia is a viral or bacterial infection affecting the respiratory system, th
 
 This dataset was sourced from Kaggle. It is comprised of over 5.5 thousand jpeg images of chest x-rays. Pneumonia x-images included both bacterial and viral infected cases. Pneumonia cases appear to be cloudier than normal cases, though differences are very subtle.
 
-<img src="https://github.com/JoeBrowz/pneumonia-neural-net/blob/main/images/cls_imbal.jpg?raw=true" width="30%">
+<img src="https://github.com/JoeBrowz/pneumonia-neural-net/blob/main/images/cls_imbal.jpg?raw=true" width="40%" class="center">
 Images were organized into train, validation, and test folders, inside of which they were split by diagnosis. Data is not stored in this repo Approximately 75% of the images provided are labeled as pneumonia-positve cases. Class imbalance has been addressed through subtle data augmentation of the training set and setting balanced class weights when training the neural network. 
 
 ## Approach
