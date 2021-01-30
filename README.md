@@ -10,13 +10,14 @@ Pneumonia is a viral or bacterial infection affecting the respiratory system, th
 ## Data
 ![pneumonia_3_class](/images/image_matrix.png)
 This dataset was sourced from Kaggle. It is comprised of over 5.5 thousand jpeg images of chest x-rays. Pneumonia x-images included both bacterial and viral infected cases. Pneumonia cases appear to be cloudier than normal cases, though differences are very subtle.
-![class_imbalance](images/cls_imbal.png)
+
+<img src="images/cls_imbal.png" width=50% height=50%>
 Images were organized into train, validation, and test folders, inside of which they were split by diagnosis. Data is not stored in this repo Approximately 75% of the images provided are labeled as pneumonia-positve cases. Class imbalance has been addressed through subtle data augmentation of the training set and setting balanced class weights when training the neural network. 
 
 ## Approach
 
 The prediction model was built using the Keras package from Tensorflow. The model was built iteratively, through a process of metric optimization. Accuracy, precision, and recall were used to evaluate performance and Adam was used as the loss function. Our final model consists of 4 2-dimensional, 3 by 3 filter convultional layers, using a relu activation function, and a He initializer, each followed by a 2 by 2 max-pooling layer. The feature tensor is then flattenned,  run through a dropout layer, then a dense layer, again with a relu activation and He initializer function.
-![epoch_performance](/images/epochs.png)
+<img src="images/epochs.png" width=50% height=50%>
 
 ## Outcome
 
