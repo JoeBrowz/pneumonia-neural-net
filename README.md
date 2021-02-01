@@ -17,7 +17,7 @@ Images were organized into train, validation, and test folders, inside of which 
 
 ## Approach
 
-The prediction model was built using the Keras package from Tensorflow. The model was built iteratively, through a process of metric optimization. Accuracy, precision, and recall were used to evaluate performance and Adam was used as the loss function. Our final model consists of 4 2-dimensional, 3 by 3 filter convultional layers, using a relu activation function, and a He initializer, each followed by a 2 by 2 max-pooling layer. The feature tensor is then flattenned,  run through a dropout layer, then a dense layer, again with a relu activation and He initializer function.
+The prediction model was built using the Keras package from Tensorflow. The model was built iteratively, through a process of metric optimization. Accuracy, precision, and recall were used to evaluate performance and Adam was used as the loss function. Our final model consists of 6 2-dimensional convultional layers, using a relu activation function, l2 regularization, padding, and a He initializer, each followed by a 2 by 2 max-pooling layer. The first layer used a 7 by 7 convulation filter and each subsequent one used a 3 by 3. The feature tensor is then flattenned,  run through a dropout layer, then a dense layer, again with a relu activation and He initializer function. The model was training using as many as 100 epochs. 
 
 <img src="images/epochs.png">
 
