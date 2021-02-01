@@ -28,12 +28,12 @@ We were able to achieve 99% accuracy, 99% recall, and 98% precision on our valid
 <img width="29%" src="/images/fn.jpg"> <img width="29%" src="/images/fp.jpg"> <img width="37%" src="/images/confusion_matrix.jpg"> 
 
 ```
-├── README.md                      <- the top-level README for reviewers of this project
-├── EDA_notebook.ipynb             <- data cleaning, EDA, feature engineering/selection
 ├── Final_Notebook.ipynb           <- notebook containing all elements of model
-├── data                           <- dataset files
+├── images                         <- generated from code
+├── models                         <- saved models (CANNOT STORE ON GITHUB)
+├── README.md                      <- the top-level README for reviewers of this project
 ├── summary_presentation.pdf       <- a pdf of the project presentation
-└── images                         <- generated from code
+└── xrays                          <- dataset files (MUST BE DOWNLOADED FROM KAGGLE)
 
 ```
 
