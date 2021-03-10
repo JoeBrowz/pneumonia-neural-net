@@ -32,7 +32,7 @@ The model had 99% accuracy, 99% recall, and 98% precision on the validation set.
 ├── images                         <- generated from code
 ├── models                         <- saved models (CANNOT STORE ON GITHUB)
 ├── README.md                      <- the top-level README for reviewers of this project
-├── summary_presentation.pdf       <- a pdf of the project presentation
+├── Pneumonia-Image-Classificat... <- a pdf of the project presentation
 └── xrays                          <- dataset files (MUST BE DOWNLOADED FROM KAGGLE)
 
 ```
